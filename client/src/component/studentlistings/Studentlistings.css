@@ -1,0 +1,11 @@
+.Studentlistingscontainer {
+  background-color: rgb(152, 253, 161);
+  padding: 10px 20px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}

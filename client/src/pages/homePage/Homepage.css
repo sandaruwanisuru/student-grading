@@ -1,0 +1,20 @@
+.allStudent {
+  background-color: rgb(152, 253, 161);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.allStudentBtn {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.allStudentBtn:active {
+  transform: translateY(-5px);
+}

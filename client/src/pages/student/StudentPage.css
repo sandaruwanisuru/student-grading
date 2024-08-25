@@ -1,0 +1,92 @@
+.studentContainer {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.studentHeader {
+  text-align: center;
+  margin: 20px;
+}
+.studentName {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.studentClass {
+  font-size: 22px;
+  color: gray;
+}
+
+.studentDetails {
+  margin: 20px 0;
+}
+
+.gradeHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.gradeItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.subject,
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.studentAction {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.deleteButton,
+.editButton {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  text-align: center;
+}
+
+.editButton {
+  background-color: #646cff;
+}
+.deleteButton {
+  background-color: #a50808dc;
+}
+.deleteButton:hover,
+.editButton:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+  .studentDetails {
+    flex-direction: column;
+  }
+  .studentAction {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

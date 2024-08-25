@@ -1,0 +1,51 @@
+.Studentlistingcontainer {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.Studentlistingcontainer:hover {
+  transform: translateY(-5px);
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.top span {
+  font-weight: 700;
+}
+.bottom {
+  margin-top: 10px;
+}
+
+/* .subjectList {
+  list-style: none;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.subjectList li {
+  gap: 10px;
+} */
+
+.studentLink {
+  display: inline-block;
+  background-color: #6366f1;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.875rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.studentLink:hover {
+  background-color: #4f46e5;
+}

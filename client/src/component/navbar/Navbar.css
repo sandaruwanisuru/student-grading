@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: rgba(1, 111, 25, 0.855);
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 80px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menuList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+/* Base link styles */
+.link {
+  color: white;
+  padding: 8px 12px; /* Equivalent to px-3 py-2 */
+  border-radius: 0.375rem; /* Equivalent to rounded-md */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Non-active link hover effect */
+.link:not(.active):hover {
+  background-color: #2d3748; /* Darker gray */
+  color: white;
+}
+
+/* Active link styles (always applied) */
+.link.active {
+  background-color: black;
+  color: white;
+  cursor: default; /* No pointer cursor on active link */
+}
